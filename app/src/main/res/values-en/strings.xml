@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manillas</string>
+    <string name="txtTitulo">handcuffs quote</string>
+    <string name="labelMaterial">Material</string>
+    <string name="labelDije">Pendant</string>
+    <string name="labelTipo">Type</string>
+    <string name="labelMoneda">COP/USD</string>
+    <string name="switchMoneda">USD/COP</string>
+    <string name="buttonCalcular">Quote</string>
+    <string name="labelValor">Value</string>
+    <string name="cuero">Leather</string>
+    <string name="cuerda">Chord</string>
+    <string name="martillo">Hammer</string>
+    <string name="ancla">Anchor</string>
+    <string name="oro">Gold, Pink Gold</string>
+    <string name="plata">Silver</string>
+    <string name="niquel">Nickel</string>
+</resources>

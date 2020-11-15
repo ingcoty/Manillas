@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Manillas</string>
+    <string name="txtTitulo">Cotizador Manillas</string>
+    <string name="labelMaterial">Material</string>
+    <string name="labelDije">Dije</string>
+    <string name="labelTipo">Tipo</string>
+    <string name="labelMoneda">COP/USD</string>
+    <string name="switchMoneda">USD/COP</string>
+    <string name="buttonCalcular">Cotizar</string>
+    <string name="labelValor">Valor</string>
+    <string name="labelCotizacion" translatable="false" />
+    <string name="cuero">Cuero</string>
+    <string name="cuerda">Cuerda</string>
+    <string name="martillo">Martillo</string>
+    <string name="ancla">Ancla</string>
+    <string name="oro">Oro, Oro Rosado</string>
+    <string name="plata">Plata</string>
+    <string name="niquel">Niquel</string>
+
+    <string-array name="materiales">
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+
+    <string-array name="dijes">
+        <item>@string/martillo</item>
+        <item>@string/ancla</item>
+    </string-array>
+
+    <string-array name="tipo">
+        <item>@string/oro</item>
+        <item>@string/plata</item>
+        <item>@string/niquel</item>
+    </string-array>
+
+</resources>

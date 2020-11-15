@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtTituloPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitulo"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblMaterial"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="@string/labelMaterial" />
+
+        <Spinner
+            android:id="@+id/cmbMaterial"
+            android:layout_width="339dp"
+            android:layout_height="34dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblDije"
+            android:layout_width="58dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="@string/labelDije" />
+
+        <Spinner
+            android:id="@+id/cmbDije"
+            android:layout_width="344dp"
+            android:layout_height="35dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblTipo"
+            android:layout_width="59dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="@string/labelTipo" />
+
+        <Spinner
+            android:id="@+id/cmbTipo"
+            android:layout_width="347dp"
+            android:layout_height="35dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="cotizar"
+            android:text="@string/buttonCalcular" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swMoneda"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/switchMoneda" />
+
+        <TextView
+            android:id="@+id/lblValor"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/labelValor" />
+
+        <TextView
+            android:id="@+id/lblCotizacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/labelCotizacion" />
+    </LinearLayout>
+
+</LinearLayout>
